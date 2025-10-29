@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.header{
+    @apply flex justify-center items-center;
+}
+
+.text_transition{
+    @apply text-7xl hover:opacity-80 hover:scale-101 transition-[scale,opacity] duration-160;
+}
+.text_transition2{
+    @apply hover:opacity-80 hover:scale-101 transition-[scale,opacity] duration-160;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none; /* For IE and Edge */
+    scrollbar-width: none; /* For Firefox */
+}
