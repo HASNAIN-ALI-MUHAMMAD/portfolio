@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import "tailwindcss";
+@tailwind utilities;
 
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
 
-body{
-    font-family: "Open Sans";
-    font-weight: 350;
+.list-square {
+    list-style-type: square;
 }
